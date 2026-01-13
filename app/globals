@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root { color-scheme: light; }
+
+* { box-sizing: border-box; }
+
+body {
+  @apply bg-slate-50 text-slate-900;
+}
+
+.card {
+  @apply rounded-2xl bg-white shadow-sm border border-slate-200;
+}
+
+.kpi {
+  @apply flex items-start justify-between gap-3 p-4;
+}
+
+.muted {
+  @apply text-slate-500;
+}
+
+.badge {
+  @apply inline-flex items-center rounded-full border px-2 py-0.5 text-xs font-medium;
+}
